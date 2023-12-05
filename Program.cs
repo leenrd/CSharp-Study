@@ -5,7 +5,10 @@ namespace app {
     class Program
     {
         static void Main(string[] args) {
-            Console.WriteLine("Hello, World!");
+            Console.WriteLine("Give me number: ");
+            string? input = Console.ReadLine();
+            int? num = input?.Length > 0 ? int.Parse(input): null;
+            Console.WriteLine($"Your number is: {num}");
         }
     }
 }
