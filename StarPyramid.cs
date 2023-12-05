@@ -1,11 +1,9 @@
-﻿// See https://aka.ms/new-console-template for more information
-using System;
+﻿namespace C_study;
 
-namespace app {
-    class Program
-    {
-        static void Main(string[] args) {
-            Console.WriteLine("How tall is the pyramid?: ");
+public class StarPyramid
+{
+    public void GeneratePyramid() {
+        Console.Write("How tall is the pyramid?: ");
             string? input = Console.ReadLine();
             int? num = input?.Length > 0 ? int.Parse(input) : null;
 
@@ -17,6 +15,5 @@ namespace app {
                 }
                 Console.WriteLine();
             }
-        }
     }
 }
