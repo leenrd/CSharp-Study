@@ -8,7 +8,7 @@ namespace app {
         static void Main(string[] args) {
             // new Fibonacci.FibonacciClass().GenerateFibonacci();
             // new StarPyramid().GeneratePyramid();
-
+            new AoC_Day1().Trebuchet();
 
         }
     }
