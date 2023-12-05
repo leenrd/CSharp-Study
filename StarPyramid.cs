@@ -4,8 +4,7 @@ public class StarPyramid
 {
     public void GeneratePyramid() {
         Console.Write("How tall is the pyramid?: ");
-            string? input = Console.ReadLine();
-            int? num = input?.Length > 0 ? int.Parse(input) : null;
+            int num = Convert.ToInt32(Console.ReadLine());
 
             for (int row = 0; row <= num; row++)
             {
