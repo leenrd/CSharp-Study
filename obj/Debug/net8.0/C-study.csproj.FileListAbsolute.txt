@@ -1,0 +1,15 @@
+C:\Users\kyrgios\Documents\GitHub\C-study\bin\Debug\net8.0\C-study.exe
+C:\Users\kyrgios\Documents\GitHub\C-study\bin\Debug\net8.0\C-study.deps.json
+C:\Users\kyrgios\Documents\GitHub\C-study\bin\Debug\net8.0\C-study.runtimeconfig.json
+C:\Users\kyrgios\Documents\GitHub\C-study\bin\Debug\net8.0\C-study.dll
+C:\Users\kyrgios\Documents\GitHub\C-study\bin\Debug\net8.0\C-study.pdb
+C:\Users\kyrgios\Documents\GitHub\C-study\obj\Debug\net8.0\C-study.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kyrgios\Documents\GitHub\C-study\obj\Debug\net8.0\C-study.AssemblyInfoInputs.cache
+C:\Users\kyrgios\Documents\GitHub\C-study\obj\Debug\net8.0\C-study.AssemblyInfo.cs
+C:\Users\kyrgios\Documents\GitHub\C-study\obj\Debug\net8.0\C-study.csproj.CoreCompileInputs.cache
+C:\Users\kyrgios\Documents\GitHub\C-study\obj\Debug\net8.0\C-study.sourcelink.json
+C:\Users\kyrgios\Documents\GitHub\C-study\obj\Debug\net8.0\C-study.dll
+C:\Users\kyrgios\Documents\GitHub\C-study\obj\Debug\net8.0\refint\C-study.dll
+C:\Users\kyrgios\Documents\GitHub\C-study\obj\Debug\net8.0\C-study.pdb
+C:\Users\kyrgios\Documents\GitHub\C-study\obj\Debug\net8.0\C-study.genruntimeconfig.cache
+C:\Users\kyrgios\Documents\GitHub\C-study\obj\Debug\net8.0\ref\C-study.dll
