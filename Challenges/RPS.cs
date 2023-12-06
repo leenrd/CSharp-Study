@@ -12,13 +12,13 @@ public class RPS
 
         while (playerChoice == "" || !playerChoices.Contains(playerChoice))
         {
-                Console.WriteLine("--------------GAME START-----------------------");
                 Console.WriteLine("Please type among {rock, paper, scissors} only!");
                 Console.Write("Player Choice {rock, paper, scissors}: ");
                 playerChoice = Console.ReadLine()?.ToLower();
         }
 
         if (playerChoice != null && playerChoices.Contains(playerChoice)) {
+            Console.WriteLine("--------------GAME START-----------------------");
             Console.WriteLine($"Player: {playerChoice}");
             Console.WriteLine($"Bot: {botChoice}");
             Play(playerChoice, botChoice);
