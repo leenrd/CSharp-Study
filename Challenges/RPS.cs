@@ -8,7 +8,7 @@ public class RPS
 
         string[] playerChoices = ["rock", "paper", "scissors"];
         int randomIndex = new Random().Next(1, 3);
-        string botChoice = (playerChoices[randomIndex]);
+        string botChoice = playerChoices[randomIndex];
 
         while (playerChoice == "" || !playerChoices.Contains(playerChoice))
         {

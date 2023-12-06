@@ -9,7 +9,8 @@ namespace app {
             // new Fibonacci.FibonacciClass().GenerateFibonacci();
             // new StarPyramid().GeneratePyramid();
             // new AoC_Day1().Trebuchet();
-            new RPS().RockPaperScissors();
+            // new RPS().RockPaperScissors();
+            new RepeatedString().RepString();
 
         }
     }
