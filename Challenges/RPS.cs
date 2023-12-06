@@ -3,20 +3,25 @@ namespace C_study;
 public class RPS
 {
     public void RockPaperScissors() {
-        Console.WriteLine("Player Choice {rock, paper, scissors}: ");
-        string[] playerChoices = ["rock", "paper", "scissors"];
-
+        Console.Write("Player Choice {rock, paper, scissors}: ");
         string? playerChoice = Console.ReadLine()?.ToLower();
+
+        string[] playerChoices = ["rock", "paper", "scissors"];
         int randomIndex = new Random().Next(1, 3);
         string botChoice = (playerChoices[randomIndex]);
+
+        while (playerChoice == "" || !playerChoices.Contains(playerChoice))
+        {
+                Console.WriteLine("--------------GAME START-----------------------");
+                Console.WriteLine("Please type among {rock, paper, scissors} only!");
+                Console.Write("Player Choice {rock, paper, scissors}: ");
+                playerChoice = Console.ReadLine()?.ToLower();
+        }
 
         if (playerChoice != null && playerChoices.Contains(playerChoice)) {
             Console.WriteLine($"Player: {playerChoice}");
             Console.WriteLine($"Bot: {botChoice}");
             Play(playerChoice, botChoice);
-        } else
-        {
-            Console.WriteLine("Please type among {rock, paper, scissors} only!");
         }
 
         static void Play(string playerChoice, string botChoice) {
