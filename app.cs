@@ -10,7 +10,7 @@ namespace app {
             // new StarPyramid().GeneratePyramid();
             // new AoC_Day1().Trebuchet();
             // new RPS().RockPaperScissors();
-            new RepeatedString().RepString();
+            // new RepeatedString().RepString();
 
         }
     }
