@@ -12,6 +12,7 @@ namespace app {
             // new RPS().RockPaperScissors();
             // new RepeatedString().RepString();
 
+            new CoB().ClassesTry();
         }
     }
 }
